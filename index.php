@@ -30,7 +30,7 @@ $path = realpath('docs');
 	/* Sort array from higher to lower, keeping keys */
 	arsort($wordFrequencyArray);
 
-	/* grab Top 10 - sorted */
+	/* grab Top 100 - sorted */
 	$top10words = array_slice($wordFrequencyArray, 0, 100);
 
 	/* display them */
