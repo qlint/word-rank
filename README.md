@@ -6,4 +6,5 @@ Simply upload your files in the docs folder and have the first file named one.tx
 
 The code is divided in two segments.
 The first segment only reads the first file - one.txt - and ranks all the words indicating the numner of appearances.
+
 The second segment reads through all the files and outputs the total ranks in order of number of appearances of all the words from all the files in the docs directory.
