@@ -9,7 +9,7 @@ $wordFrequencyArray = array_count_values($wordArray);
 /* Sort array from higher to lower, keeping keys */
 arsort($wordFrequencyArray);
  
-/* grab Top 10, huh sorted? */
+/* grab Top 100 - sorted */
 $top10words = array_slice($wordFrequencyArray,0,100);
  
 /* display them */
@@ -30,7 +30,7 @@ $path = realpath('docs');
 	/* Sort array from higher to lower, keeping keys */
 	arsort($wordFrequencyArray);
 
-	/* grab Top 10, huh sorted? */
+	/* grab Top 10 - sorted */
 	$top10words = array_slice($wordFrequencyArray, 0, 100);
 
 	/* display them */
